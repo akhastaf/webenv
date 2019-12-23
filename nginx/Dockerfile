@@ -7,7 +7,7 @@ RUN apt-get install -y nginx-extras
 RUN apt-get install -y nginx-common 
 RUN apt-get install -y libnginx-mod-http-fancyindex git
 
-RUN git clone https://github.com/artyuum/Nginx-FancyIndex-Theme.git /etc/nginx/fancyindex_theme
+RUN git clone https://github.com/Naereen/Nginx-Fancyindex-Theme.git /etc/nginx/Nginx-Fancyindex-Theme
 
 COPY ./default.conf /etc/nginx/conf.d/default.conf
 
